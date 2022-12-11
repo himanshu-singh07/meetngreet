@@ -1,10 +1,10 @@
 .tweetBox {
   padding-bottom: 10px;
-  border-bottom: 8px solid var(--twitter-background);
+  border-bottom: 8px solid greenyellow;
   padding-right: 10px;
 }
 
-.tweetBox > form {
+.tweetBox>form {
   display: flex;
   flex-direction: column;
 }
@@ -14,7 +14,7 @@
   display: flex;
 }
 
-.tweetBox__input > input {
+.tweetBox__input>input {
   flex: 1;
   margin-left: 20px;
   font-size: 20px;

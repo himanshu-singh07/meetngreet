@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import TwitterIcon from "@material-ui/icons/Twitter";
+// import SpaIcon from '@mui/icons-material/Spa';
 import SidebarOption from "./SidebarOption";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
@@ -15,7 +16,7 @@ import { Button } from "@material-ui/core";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <TwitterIcon className="sidebar__twitterIcon" />
+      <p className="sidebar__twitterIcon">MeetnGreet</p>
 
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={SearchIcon} text="Explore" />

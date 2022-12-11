@@ -8,6 +8,7 @@ function App() {
   return (
     // BEM
     <div className="app">
+      {/* <login /> */}
       <Sidebar />
       <Feed />
       <Widgets />

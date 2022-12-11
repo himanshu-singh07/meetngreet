@@ -1,18 +1,28 @@
-import firebase from "firebase";
+// Import the functions you need from the SDKs you need
+// import firebase from "firebase/app";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCw-li0IscS2rJr68dSjoJL3KM3eFq5PfE",
-  authDomain: "twitter-clone-1faac.firebaseapp.com",
-  databaseURL: "https://twitter-clone-1faac.firebaseio.com",
-  projectId: "twitter-clone-1faac",
-  storageBucket: "twitter-clone-1faac.appspot.com",
-  messagingSenderId: "316208638057",
-  appId: "1:316208638057:web:75a37bf24fab32ff145af8",
-  measurementId: "G-HGFP2LDXP9",
+  apiKey: "AIzaSyCdN5orFkPwmeL-iGjkupgz_DlTmEIZ7Lc",
+  authDomain: "twiter-clone-ede8f.firebaseapp.com",
+  projectId: "twiter-clone-ede8f",
+  storageBucket: "twiter-clone-ede8f.appspot.com",
+  messagingSenderId: "190246700403",
+  appId: "1:190246700403:web:53d35d65ad10c4e09eb106",
+  measurementId: "G-LH4P5ZWXFP"
 };
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
-const db = firebaseApp.firestore();
+// const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-export default db;
+// const db = firebaseApp.firestore();
+
+export default analytics;

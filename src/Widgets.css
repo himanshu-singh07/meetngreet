@@ -5,16 +5,16 @@
 .widgets__input {
   display: flex;
   align-items: center;
-  background-color: var(--twitter-background);
+  background-color: greenyellow;
   padding: 10px;
   border-radius: 20px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
-.widgets__input > input {
+.widgets__input>input {
   border: none;
-  background-color: var(--twitter-background);
+  background-color: greenyellow;
 }
 
 .widgets__searchIcon {
@@ -29,7 +29,7 @@
   border-radius: 20px;
 }
 
-.widgets__widgetContainer > h2 {
+.widgets__widgetContainer>h2 {
   font-size: 18px;
   font-weight: 800;
 }
